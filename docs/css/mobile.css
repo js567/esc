@@ -71,17 +71,9 @@ body {
   height:100%;
 }
 
-.short-title {
-  display: none;
-}
-
-.full-title {
-  display: none;
-}
-
-@media screen and (max-width:1200px) {
-  .short-title {display: block;}
-  .full-title {display: none;}
+.main-title {
+  color: blue;
+  font-size: 1vw;
 }
 
 .main-image {
