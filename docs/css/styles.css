@@ -71,23 +71,21 @@ body {
   height:100%;
 }
 
-.short-title {
-  display: none;
-}
-
-.full-title {
-  display: none;
-}
-
-@media screen and (max-width:1200px) {
-  .short-title {display: block;}
-  .full-title {display: none;}
-}
-
 .main-image {
   width: 100vw;
   max-height: 100vh;
   object-fit: none;
+}
+
+.career-heading {
+  margin-bottom: 2rem;
+}
+
+.profile-pic {
+  height: 10vw;
+  width: 10vw;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10510,13 +10508,14 @@ header
   }
 }
 .team-member {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
   text-align: center;
 }
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  /* border: 0.5rem solid rgba(0, 0, 0, 0.1); */
 }
 .team-member h4 {
   margin-top: 1.5rem;
@@ -10827,5 +10826,72 @@ section#contact form#contactForm :-ms-input-placeholder {
  
 }
 
+.short-title {
+  display: none;
+}
 
+.full-title {
+  display: block;
+}
+
+@media screen and (max-width:800px) {
+  .short-title {display: flex}
+  .full-title {display: none;}
+  .main-image {display: none;}
+  #about {padding-top: 10vh;}
+  .team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+    background-color: blue;
+    width: 50vw;
+    border-radius: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .team-member img {
+    width: 7rem;
+    height: 7rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+  .team-member h4 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .team-member p {
+    font-size: 0.75rem;
+  }
+  .btn-social {
+    width: 2rem;
+    height: 2rem;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  .col-lg {
+    padding: 0rem;
+  }
+  .profile-pic {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-body {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .card-body h4 {
+    font-size: 4vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card-body p {
+    font-size: 3vw;
+  }
+
+
+}
  
