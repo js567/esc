@@ -10912,5 +10912,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   .main-description {
     text-align: left;
   }
+
+  .upper-button {
+    margin: 0.25rem;
+  }
 }
  
