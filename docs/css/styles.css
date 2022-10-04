@@ -77,6 +77,19 @@ body {
   object-fit: none;
 }
 
+.button-holder {
+  display: block;
+  text-align: center;
+}
+
+.upper-button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .career-heading {
   margin-bottom: 2rem;
 }
